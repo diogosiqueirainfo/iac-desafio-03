@@ -1,7 +1,9 @@
+Depois de autenticar usando o terraform no provider (serviço de núvem)
+
 Baixe o projeto:
+
 gh repo clone diogosiqueirainfo/kube-news
 
-#Depois de autenticar com o provider (serviço de núvem)
 Execute: 
 kubectl get nodes --kubeconfig kube_config.yaml
 cp kube_config.yaml ~/.kube/config
